@@ -1,0 +1,3 @@
+/home/lk/project/pcl_practice/plc_segmentation/buil/CMakeFiles/rebuild_cache.dir
+/home/lk/project/pcl_practice/plc_segmentation/buil/CMakeFiles/edit_cache.dir
+/home/lk/project/pcl_practice/plc_segmentation/buil/CMakeFiles/main.dir
