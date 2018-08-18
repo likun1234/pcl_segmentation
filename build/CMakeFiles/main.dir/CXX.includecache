@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/lk/project/pcl_practice/plc_segmentation/main.cpp
+/home/lk/project/pcl_practice/pcl_segmentation/main.cpp
 iostream
 -
 pcl/ModelCoefficients.h
@@ -38,6 +38,10 @@ pcl/segmentation/region_growing_rgb.h
 pcl/visualization/cloud_viewer.h
 -
 pcl/segmentation/min_cut_segmentation.h
+-
+pcl/segmentation/conditional_euclidean_clustering.h
+-
+pcl/console/time.h
 -
 
 /usr/include/eigen3/Eigen/Cholesky
@@ -1354,6 +1358,12 @@ pcl/pcl_exports.h
 pcl/pcl_config.h
 -
 
+/usr/local/include/pcl-1.8/pcl/console/time.h
+boost/date_time/posix_time/posix_time.hpp
+-
+pcl/console/print.h
+-
+
 /usr/local/include/pcl-1.8/pcl/conversions.h
 pcl/PCLPointField.h
 -
@@ -2414,12 +2424,26 @@ boost/ptr_container/ptr_list.hpp
 boost/graph/boykov_kolmogorov_max_flow.hpp
 -
 
+/usr/local/include/pcl-1.8/pcl/segmentation/conditional_euclidean_clustering.h
+boost/function.hpp
+-
+pcl/pcl_base.h
+-
+pcl/search/pcl_search.h
+-
+pcl/segmentation/impl/conditional_euclidean_clustering.hpp
+-
+
 /usr/local/include/pcl-1.8/pcl/segmentation/extract_clusters.h
 pcl/pcl_base.h
 -
 pcl/search/pcl_search.h
 -
 pcl/segmentation/impl/extract_clusters.hpp
+-
+
+/usr/local/include/pcl-1.8/pcl/segmentation/impl/conditional_euclidean_clustering.hpp
+pcl/segmentation/conditional_euclidean_clustering.h
 -
 
 /usr/local/include/pcl-1.8/pcl/segmentation/impl/extract_clusters.hpp

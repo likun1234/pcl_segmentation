@@ -452,18 +452,18 @@ void conditional_euclidean(pcl::PointCloud<PointTypeIO>::Ptr cloud_in )
 
 
 
-int
+	int
 main (int argc, char** argv)
 {
 	pcl::PointCloud<PointT>::Ptr cloud (new pcl::PointCloud<PointT>());
-        //pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
+	//pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
 	pcl::PCDReader reader;
-        reader.read (argv[1], *cloud);
-        //sacsegment(cloud);
-        //cluster_segment(cloud);
-        //regiongrowing(cloud);
-        //color_segment(cloud);
-        MinCutSegmentation(cloud);
-        return 0;
+	reader.read (argv[1], *cloud);
+	//sacsegment(cloud);
+	//cluster_segment(cloud);
+	//regiongrowing(cloud);
+	//color_segment(cloud);
+	MinCutSegmentation(cloud);
+	return 0;
 }
 
